@@ -1,0 +1,13 @@
+<script>
+function addNumbers(firstNumber, secondNumber) {
+    var returnValue = "Result is : ";
+    // This inner function has access to the outer function's variables & parameters
+    function add()  {
+        return returnValue + (firstNumber + secondNumber);
+    }
+    return add();
+}
+
+var result = addNumbers(10, 20);
+document.write(result);
+</script>

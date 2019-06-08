@@ -1,0 +1,23 @@
+<html>
+<head>
+	</head>
+	<body>
+<form>
+ <input type="date" id="b1">
+<input type="date" id="b2">
+<input type="button" onclick="calculate()" value="calculate">
+<p id ="demo"> </p>
+</form>
+</body>
+<script>
+ function calculate() {
+	var d1 = document.getElementById("b1").value;
+	var d2= document.getElementById("b2").value;
+	var date1 = new Date(d1);
+	var date2 = new Date(d2);
+	var timeDiff = Math.abs(date2.getTime() – date1.getTime());
+	 
+	var diffDays = Math.ceil(timeDiff/(1000*3600*24));
+	document.getElementById("demo").innerHTML = diffDays;
+}
+</script>

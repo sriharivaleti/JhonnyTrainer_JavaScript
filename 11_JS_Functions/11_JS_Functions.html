@@ -28,12 +28,12 @@
 <script>
     //creation of a simple function with no args and execute a function
     var output = " ";
-    function vinay() {
+    function JhonnyTrainer() {
         output = " Good Afternoon ";
         console.log(output);
         document.getElementById('display').innerHTML = output;
     }
-    vinay(); //function Excution
+    JhonnyTrainer(); //function Excution
 
     //creation of a simple function with args
     output = " ";
@@ -42,7 +42,7 @@
         console.log(output);
         document.getElementById('display').innerHTML = output;
     }
-    greetArgs("vinay");
+    greetArgs("JhonnyTrainer");
 
 
     // executing a function with less number of params
@@ -53,7 +53,7 @@
     }
 
     //executing a function with more number of params
-    greetless("vinay" , 40 );
+    greetless("JhonnyTrainer" , 40 );
 
 
     //function overloading is not possible here
@@ -64,7 +64,7 @@
         var greetMe = " Good Morning " + name ;
         return greetMe;
     }
-    greetMe("vinay");
+    greetMe("JhonnyTrainer");
     console.log(output);
     document.getElementById('display').innerHTML = output;
 
@@ -73,7 +73,7 @@
         var greeting = " Good Morning " + name;
         return;
     }
-    emptyReturn("vinay");
+    emptyReturn("JhonnyTrainer");
     console.log(output);
     document.getElementById('display').innerHTML = output;
 
@@ -125,13 +125,13 @@
     function greetMe1Engine(fName,name){
         fName(name);
     }
-    greetMe1Engine(greetMe1, "vinay");
+    greetMe1Engine(greetMe1, "JhonnyTrainer");
 
 
 
     // Functions in Objects and Execution
     var employee={
-        firstName : "vinay",
+        firstName : "JhonnyTrainer",
         lastName : "vanam",
         getFullName :function () {
             getfullName : employee= + this.firstName + this.lastName;
@@ -153,7 +153,7 @@
      */
 
     var employeeNew = {
-        name : "vinay",
+        name : "JhonnyTrainer",
         age : 40 ,
         address : {
             city : "hyderabad",

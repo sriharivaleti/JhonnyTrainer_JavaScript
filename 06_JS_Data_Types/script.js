@@ -6,7 +6,7 @@ document.getElementById('display').innerHTML = output;
 
 
 // String Examples
-var myName = "vinay";
+var myName = "JhonnyTrainer";
 output = " The is a String : " + myName;
 console.log(output);
 document.getElementById('display').innerHTML = output;
@@ -19,7 +19,7 @@ document.getElementById('display').innerHTML = output;
 
 // reassignment example of variables
 var a = 10; //number
-a = "vinay"; //string
+a = "JhonnyTrainer"; //string
 a = true; //Boolean
 
 
@@ -42,3 +42,6 @@ var num2 = null;
 output = "null example is : " + num2;
 console.log(output);
 document.getElementById('display').innerHTML = output;
+
+
+/**  Copy Right @ jani.reddy5@gmail.com  */
